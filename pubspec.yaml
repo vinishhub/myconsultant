@@ -1,0 +1,39 @@
+name: myconsultant
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Uncomment to build standalone project.
+  responsive_framework: ^1.0.0
+  navigation_utils: ^0.1.0
+  google_fonts: ^5.0.0
+  animations: ^2.0.7
+  loading_gifs: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/company_logo.jpg"
+  image_path_ios: "assets/company_logo.jpg"
+  adaptive_icon_background: "#FFFFFFFF"
+  adaptive_icon_foreground: "assets/company_logo.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/assets/images/
